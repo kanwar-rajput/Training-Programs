@@ -11,7 +11,7 @@ int fibonacci(int x){
     return temp;
 
 }
-
+//  why this function ?   and why making two functions ? 
 int fibonacci2(int x){
     return x*(x+1)/2;
 }
