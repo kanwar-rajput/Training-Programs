@@ -18,7 +18,7 @@
 using namespace std;
 
 void grades(int number){
-    cout << "\nGrade : ";
+    cout << "\nGrade : ";  // no output  in the grades  and       function should always return some value 
     if ( (number > 90) && (number <= 100) ){
         cout << "AA";
     }

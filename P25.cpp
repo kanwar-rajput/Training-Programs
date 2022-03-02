@@ -8,7 +8,7 @@ float kelvinToCel(int K){
     return (K - 273.15);
 }
 
-
+// see my comments in other programs  for suggestions
 int main()
 {
     int k;

@@ -8,7 +8,7 @@
 */
 #include <iostream>
 using namespace std;
-
+// see comments
 int main()
 {
     cout << "\nFind Size of fundamental data types : ";

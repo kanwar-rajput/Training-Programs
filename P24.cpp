@@ -5,11 +5,12 @@
 using namespace std;
 
 const float SPEED = 1.609;
-
+//  function name should be general  discuss   it could be   toKilometer( int miles )  and vice verce
 float mphToKmh(int x){
     cout << "\nKilo Meter Per Hour : ";
     return SPEED*x;
 }
+// see my comments in other programs  for suggestions
 
 int main()
 {

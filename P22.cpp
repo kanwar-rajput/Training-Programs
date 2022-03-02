@@ -7,7 +7,7 @@ int thirdAngle(int x , int y){
     cout << "\nAngle 3 : ";
     return 180 - (x + y);
 }
-
+// see my comments in other programs
 int main()
 {
 

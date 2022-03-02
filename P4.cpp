@@ -4,9 +4,9 @@
 using namespace std;
 
 const float PI = 3.14;
-
+// getArea   use    naming conventions
 float area(float r){
-    cout << "\nThe area of Circle is : " ;
+    cout << "\nThe area of Circle is : " ; // SOLID
     return 2*(PI * (r*r));
 }
 

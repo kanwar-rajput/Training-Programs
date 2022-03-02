@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-float farToCel(int F){
+float farToCel(int F){   // variable should be in lowercase and    should be proper name
     cout << "\nCelsius : ";
     return (F - 32) * 5/9.0;
 }

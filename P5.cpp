@@ -5,8 +5,9 @@
 using namespace std;
 
 int maxOfThree(int x , int y , int z){
-    cout << "\nMax Number is  : " ;
-    if ((x > y) && (x > z)){
+    cout << "\nMax Number is  : " ; // No Output  statement in the function
+    if ((x > y) && (x > z)){   // or you could simply use the function  from library as well  
+                                
         return x; // Return 'x' if it's larger from y,z
     }
     else if ((y > x) && (y > z)){

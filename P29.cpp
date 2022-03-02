@@ -19,7 +19,7 @@ bool isPalindrome(int x){
     cout << "\nIs this Palindrome : ";
     return x==revDigits(x);
 }
-
+// see my comments in other programs  for suggestions
 int main()
 {
     int n;

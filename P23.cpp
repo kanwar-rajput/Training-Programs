@@ -3,7 +3,7 @@
 
 #include <iostream>
 using namespace std;
-
+// see my comments in other programs
 const float MILE = 0.6213712;
 
 float kphToMph(int x){
