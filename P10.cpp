@@ -17,6 +17,9 @@
 #include <iostream>
 using namespace std;
 
+
+// never  do  input and output  in a function
+// S  -  SOLID Principles    discuss
 void grades(int number){
     cout << "\nGrade : ";
     if ( (number > 90) && (number <= 100) ){
