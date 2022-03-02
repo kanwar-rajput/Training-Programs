@@ -8,7 +8,12 @@ void swap(int* x,int* y){
     *x = *y; // if we do this step on next line the value wont change for x
     *y = z; // Because y = x and x = y so they wont swap
 }
+/*
+I hope you  know about   Pass by value and Pass by Reference
 
+why 3 variables ?
+naming variable convention
+*/
 
 int main()
 {
