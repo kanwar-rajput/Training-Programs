@@ -11,7 +11,7 @@ int fibonacci(int x){
     return temp;
 
 }
-
+//  see comments
 int fibonacci2(int x){
     return x*(x+1)/2;
 }

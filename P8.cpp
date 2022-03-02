@@ -5,14 +5,14 @@
 using namespace std;
 
 bool canVote(int age){
-    cout << "\nCan you vote : " ; 
-    return age >= 18;
+    cout << "\nCan you vote : " ; //   no output
+    return age >= 18;   // use of if statment  for more clarity
 }
 
 int main()
 {
 
-    int age;
+    int age;  // always initialize your variables
 
     cout << "\nYour Age : " ; cin >> age;
     cout << canVote(age) << endl;

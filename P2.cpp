@@ -6,7 +6,7 @@ using namespace std;
 float product(float x , float y){
     return x*y;
 }
-
+// see my comments in other programs  for suggestions
 int main()
 {
 

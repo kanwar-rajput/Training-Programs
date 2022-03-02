@@ -13,7 +13,7 @@ int sumOfThreeDigits(int x){
     cout << "\nSum of 3 Digits : ";
     return sum;
 }
-
+// see my comments in other programs  for suggestions
 int main()
 {
     int n;

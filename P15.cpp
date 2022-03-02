@@ -6,7 +6,7 @@ using namespace std;
 const float PI = 3.14;
 
 float volumeOfSphere(int radius){
-    cout << "The volume of Sphere is : ";
+    cout << "The volume of Sphere is : ";  // no output statement in a function
     return (4*PI*radius*radius*radius)/3; // That is because we want answer in float
 }
 

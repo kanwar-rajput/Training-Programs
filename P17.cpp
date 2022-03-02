@@ -6,13 +6,13 @@ using namespace std;
 const float PI = 3.14;
 
 float volumeOfCylinder(int radius,int height){
-    cout << "The volume of Cylinder is : ";
+    cout << "The volume of Cylinder is : "; // no output statement
     return (PI*radius*radius*height);
 }
 
 int main()
 {
-    int radius,height;
+    int radius,height; // always initialize
 
     cout << "\nRadius of Cylinder : "; cin >> radius;
     cout << "\nHeight of Cylinder : "; cin >> height;

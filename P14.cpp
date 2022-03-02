@@ -9,7 +9,7 @@ void swap(int* x,int* y){
     *y = z; // Because y = x and x = y so they wont swap
 }
 
-
+// see comments
 int main()
 {
     int x=10 , y = 20;

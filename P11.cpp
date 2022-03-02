@@ -2,7 +2,7 @@
 
 #include <iostream>
 using namespace std;
-
+// see my comments
 void factorial(int x){
     int temp = 1;
     cout << "\n " << x << "! = " ;

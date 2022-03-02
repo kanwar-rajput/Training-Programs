@@ -5,7 +5,7 @@
 using namespace std;
 
 int minOfThree(int x , int y , int z){
-    cout << "\nMin Number is  : " ;
+    cout << "\nMin Number is  : " ; // no output statement
     if ((x < y) && (x < z)){
         return x; // Return 'x' if it's smaller from y,z
     }

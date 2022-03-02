@@ -9,7 +9,7 @@ using namespace std;
 int revDigits(int x){
     int rev = 0;
     while (x != 0){
-        rev = (x % 10) + (rev*10);
+        rev = (x % 10) + (rev*10);  //  did you make this logic by yourself ?  discuss
         x /= 10;
     }
     cout << "\nReversed Number : ";

@@ -2,15 +2,15 @@
 
 #include <iostream>
 using namespace std;
-
-int volumeOfCube(int Side){
-    cout << "The volume of Cube is : ";
+// function naming convention is good   ,  its called  camelcase  incase you dont know it
+int volumeOfCube(int Side){ // variable should be in lower case
+    cout << "The volume of Cube is : ";  // no output statement 
     return (Side*Side*Side); // That is because we want answer in float
 }
 
 int main()
 {
-    int Side;
+    int Side; // always initialize
 
     cout << "\nSide of Cube : "; cin >> Side;
     cout << volumeOfCube(Side) << endl;

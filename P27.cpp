@@ -13,7 +13,7 @@ int sumOfDigits(int x){
     cout << "\nSum of Digits : ";
     return sum;
 }
-
+// see my comments in other programs  for suggestions
 int main()
 {
     int n;
