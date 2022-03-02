@@ -2,7 +2,11 @@
 
 #include <iostream>
 using namespace std;
-
+/*
+Function  should Always return 
+No Input   /  Output in a function
+discuss   Recursive Functions
+*/
 void factorial(int x){
     int temp = 1;
     cout << "\n " << x << "! = " ;
